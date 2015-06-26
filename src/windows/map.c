@@ -543,7 +543,7 @@ static void window_map_invalidate()
 	w->widgets[WIDX_MAP].right = w->width - 4;
 
 	if ((RCT2_GLOBAL(RCT2_ADDRESS_SCREEN_FLAGS, uint8) & SCREEN_FLAGS_SCENARIO_EDITOR) ||
-		gSandboxMode)
+		gCheatsSandboxMode)
 		w->widgets[WIDX_MAP].bottom = w->height - 1 - 72;
 	else if (w->selected_tab == 1)
 		w->widgets[WIDX_MAP].bottom = w->height - 1 - 44;
@@ -590,7 +590,7 @@ static void window_map_invalidate()
 
 
 	if ((RCT2_GLOBAL(RCT2_ADDRESS_SCREEN_FLAGS, uint8) & SCREEN_FLAGS_SCENARIO_EDITOR) ||
-		gSandboxMode) {
+		gCheatsSandboxMode) {
 		// scenario editor: build park entrance selected, show rotate button
 		if ((RCT2_GLOBAL(RCT2_ADDRESS_INPUT_FLAGS, uint32) & INPUT_FLAG_TOOL_ACTIVE) &&
 			RCT2_GLOBAL(RCT2_ADDRESS_TOOL_WINDOWCLASS, uint8) == WC_MAP &&
@@ -681,7 +681,7 @@ static void window_map_paint()
 	}
 
 	if (!((RCT2_GLOBAL(RCT2_ADDRESS_SCREEN_FLAGS, uint8) & SCREEN_FLAGS_SCENARIO_EDITOR)
-		|| gSandboxMode)) {
+		|| gCheatsSandboxMode)) {
 		// render the map legend
 		if (w->selected_tab != 0) {
 			x = w->x + 4;

@@ -1553,6 +1553,9 @@ enum {
 	STR_OBJECTS_SORT_TYPE = 5447,
 	STR_OBJECTS_SORT_RIDE = 5448,
 
+	STR_DISABLE_CLEARANCE_CHECKS = 5449,
+	STR_DISABLE_SUPPORT_LIMITS = 5450,
+
 	// Have to include resource strings (from scenarios and objects) for the time being now that language is partially working
 	STR_COUNT = 32768
 };
