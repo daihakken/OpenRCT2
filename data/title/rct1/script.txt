@@ -1,0 +1,66 @@
+# RCT 1 Title Sequence for OpenRCT 0.0.2+
+# Arranged by daihakken (Harry)
+# Scenario originally recreated by Crappage, http://forums.rctspace.com/index.php?showtopic=26499.
+
+LOAD Haunted Harbor.sv6
+LOCATION 61 54
+WAIT 11
+
+ROTATE 3
+LOCATION 77 44
+WAIT 15
+
+LOAD Canary Mines.sv6
+LOCATION 52 28
+WAIT 17
+
+LOAD Gentle Glen.sv6
+LOCATION 68 45
+WAIT 12
+
+LOAD Funtopia.sv6
+LOCATION 69 93
+WAIT 13
+# LOOPY LANDSCAPE STARTS
+LOAD Frightmare Hills.sv6
+LOCATION 46 47
+WAIT 5
+
+LOAD Good Knight Park2.sv6
+LOCATION 60 62
+WAIT 5
+
+LOAD Iceberg Islands.sv6
+LOCATION 36 52
+WAIT 5
+
+LOAD Southern Sands.sv6
+LOCATION 52 46
+WAIT 5
+
+LOAD Sunny Swamps.sv6
+LOCATION 77 82
+WAIT 5
+
+LOAD Vertigo Views.sv6
+LOCATION 22 56
+WAIT 3
+
+LOAD Wacky Warren.sv6
+LOCATION 72 80
+WAIT 4
+# LOOPY LANDSCAPE ENDS
+LOAD Diamond Heights.sv6
+LOCATION 47 99
+WAIT 12
+
+LOAD Diamond Heights2.sv6
+ROTATE 2
+LOCATION 90 48
+WAIT 12
+
+LOCATION 86 43
+ROTATE 1
+WAIT 12
+
+RESTART
